@@ -23,7 +23,7 @@ Enter a number: done
 
 def calculator():
     total = 0
-    count = 1
+    count = 0
     while True:
         num = raw_input("Enter a number: ")
         if num == 'done':
